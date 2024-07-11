@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  background: #000;
+}
+
+
+
+.borderimage{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  object-fit: contain;
+  max-width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.info{
+ position: absolute;
+ left: 28%;
+ top: 15%;
+ width: 900px
+}
+
+#titlepage{
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  width: 900px;
+  color: #fff;
+}
+
+p{
+  font-size: 18pt;
+}
+
+.arrow{
+  scale: .5;
+  position: absolute;
+  top: 50%;
+}
+
+#arrowright{
+  right: 0;
+  transform: translateX(50%);
+}
+
+#arrowleft{
+  left: 0;
+  transform: translateX(-50%) rotateY(180deg);
+}
+
