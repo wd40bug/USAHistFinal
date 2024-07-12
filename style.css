@@ -3,8 +3,6 @@ body{
   background: #000;
 }
 
-
-
 .borderimage{
   position: absolute;
   margin-left: auto;
@@ -20,11 +18,11 @@ body{
 .info{
  position: absolute;
  left: 28%;
- top: 15%;
+ top: 16%;
  width: 900px
 }
 
-#titlepage{
+.textpage{
   position: absolute;
   left: 25%;
   top: 15%;
@@ -33,7 +31,7 @@ body{
 }
 
 p{
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 .arrow{

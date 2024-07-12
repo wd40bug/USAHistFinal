@@ -1,4 +1,4 @@
-var SLIDE_NUM = 6;
+var SLIDE_NUM = 7;
 var current_slide = 0;
 var slide_to_elements = {};
 var SlideType;

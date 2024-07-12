@@ -1,5 +1,5 @@
 type ElementCol = HTMLCollectionOf<HTMLElement>
-const SLIDE_NUM = 6;
+const SLIDE_NUM = 7;
 let current_slide: number = 0;
 let slide_to_elements: { [id: number]: ElementCol } = {};
 
